@@ -1,2 +1,2 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+A simple console version of Conway's Game of life in Dart.
+(for pedagogic purpose)
