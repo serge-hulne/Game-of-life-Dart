@@ -16,10 +16,10 @@ class Cell {
   int neighborsAlive = 0;
 
   Cell({
-    required this.x,
-    required this.y,
-    required this.alive,
-    required this.w,
+    this.x = 0,
+    this.y = 0,
+    this.alive = false,
+    this.w,
   }) {
     if (w != null) {
       xMax = w!.columns;
